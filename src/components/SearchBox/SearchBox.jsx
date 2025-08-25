@@ -5,7 +5,6 @@ import styles from './SearchBox.module.css';
 export default function SearchBox() {
   const value = useSelector(selectNameFilter);
   const dispatch = useDispatch();
-
   return (
     <input
       className={styles.input}
