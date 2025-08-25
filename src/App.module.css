@@ -1,0 +1,10 @@
+.wrap {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+.title {
+  margin: 0 0 16px;
+  font-size: 28px;
+}

@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+.info {
+  display: grid;
+}
+.name {
+  font-weight: 600;
+}
+.number {
+  color: #475569;
+  font-size: 14px;
+}
+.del {
+  border: 0;
+  background: #ef4444;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.del:hover {
+  opacity: 0.9;
+}
